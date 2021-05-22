@@ -12,5 +12,5 @@ def about():
   return 'About page'
 
 if __name__ == '__name__':
-  app.run()
+  app.run(debug=True)
   
